@@ -5,6 +5,7 @@
  */
 package redisjavase;
 
+import fr.db.securiteincendie.MENUPrincipal;
 import redis.clients.jedis.Jedis;
 
 /**
@@ -17,21 +18,22 @@ public class RedisJavaSE {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Jedis jedis = new Jedis("172.26.10.147");
+        new MENUPrincipal();
+        /*        Jedis jedis = new Jedis("172.26.10.147");
 
         /*
          Cela a été stocké via la console
          */
-        String lsValeur = jedis.get("nom");
+ /*        String lsValeur = jedis.get("nom");
         System.out.println(lsValeur);
 
         /*
          Stockage ici
          Allez vérifier à la console !
          */
-        jedis.set("nom", "Buguet");
-
+ /*
+jedis.set("nom", "Buguet");
+         */
     } /// main
 
-    
 }

@@ -21,11 +21,11 @@ public class Listes {
              Stockage ici
              Allez vérifier à la console !
              */
-//            jedis.rpush("ListeLettres", "A");
-//            jedis.rpush("ListeLettres", "B");
-//            jedis.rpush("ListeLettres", "C");
-//            jedis.rpush("ListeLettres", "D");
-//            jedis.rpush("ListeLettres", "E");
+            jedis.rpush("ListeLettres", "A");
+            jedis.rpush("ListeLettres", "B");
+            jedis.rpush("ListeLettres", "C");
+            jedis.rpush("ListeLettres", "D");
+            jedis.rpush("ListeLettres", "E");
             /*
              Affichage de la List stockée
              */
