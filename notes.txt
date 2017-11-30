@@ -1,0 +1,8 @@
+A installer d'abord:
+
+TortoiseSVN-1.9.7.27907-x64-svn-1.9.7.exe
+
+
+NODEMON
+https://github.com/remy/nodemon
+
